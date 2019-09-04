@@ -59,8 +59,8 @@ VM translator compile VM code to assambly code
 			3. goto function_return_label
 
 ### VM Booting
-We need to boot our VM by first setting SP to 256,
-then call Sys.init function in Sys.vm code.
+	We need to boot our VM by first setting SP to 256,
+	then call Sys.init function in Sys.vm code.
 
-VM program is a folder that has Sys.vm file, and optional other .vm files.
-In Sys.vm file, there must has Sys.init function to boot our VM.
+	VM program is a folder that has Sys.vm file, and optional other .vm files.
+	In Sys.vm file, there must has Sys.init function to boot our VM.
