@@ -8,7 +8,7 @@ def main():
     file_path = sys.argv[1]
     dir_path = os.path.dirname(file_path)
     file_name = dir_path.split("/")[-1]
-    files = glob.glob(dir_path+"/*.jack")
+    files = glob.glob(dir_path+"/*.hl")
     for file in files:
         compiel_engine = Compile_Engine(file)
         #compiel_engine.test_command()
