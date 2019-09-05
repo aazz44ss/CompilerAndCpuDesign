@@ -9,17 +9,17 @@
 
 ## 專案結構
 
-- 在 VM-Assmbly-Machine 中:
+- 在 VM-Assembly-Machine 中:
 
 	利用邏輯電路中最基本的元素"Nand Gate"組合出CPU及Memory
 
-- 在 VM-Assmbly 中:
+- 在 VM-Assembly 中:
 
-	將 Assmbly Code 編譯成所設計硬體可執行的 Binary Code
+	將 Assembly Code 編譯成所設計硬體可執行的 Binary Code
 
 - 在 VM_translator 中:
 
-	將 VM Code 編譯成 Assmbly Code
+	將 VM Code 編譯成 Assembly Code
 
 - 在 Compiler 中:
 
@@ -37,7 +37,7 @@
 		|--- hl_tokenizer.py
 		|--- README.md
 	--- VM
-		|--- Assmbly
+		|--- Assembly
 			|--- Machine
 				|--- Component
 					|--- Basic_Element
@@ -69,7 +69,7 @@
 			|--- mult
 				|--- mult.asm
 			|--- README.md
-		|--- assmbler.py
+		|--- assembler.py
 		|--- README.md
 	--- VM_translator
 		|--- test
