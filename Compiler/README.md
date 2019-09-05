@@ -58,9 +58,12 @@ Compile from high-level-language to VM code
 #### Note
 
 Most of grammer is LL(1), can be parse withou backtracking,
+
 However, when current token is varName, it can be fisrt token in followings:
+
 1. foo
 2. foo[expression]
 3. foo.bar(expression)
 4. foo(expression)
+
 the grammer becomes LL(2).
