@@ -1,7 +1,7 @@
-# ASSMBLER
+# ASSEMBLER
 
 	usage:
-		python assmbler.py Assmbly/mult/mult.asm
+		python assembler.py Assembly/mult/mult.asm
 		
 	out:
 		.bin file in mult folder
