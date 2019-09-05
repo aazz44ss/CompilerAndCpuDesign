@@ -7,17 +7,17 @@
 
 ## 專案結構
 
-在 VM-Assmbly-Machine 中
-利用邏輯電路中最基本的元素"Nand Gate"組合出CPU及Memory
+	在 VM-Assmbly-Machine 中
+	利用邏輯電路中最基本的元素"Nand Gate"組合出CPU及Memory
 
-在 VM-Assmbly 中
-將 Assmbly Code 編譯成所設計硬體可執行的 Binary Code
+	在 VM-Assmbly 中
+	將 Assmbly Code 編譯成所設計硬體可執行的 Binary Code
 
-在 VM_translator 中
-將 VM Code 編譯成 Assmbly Code
+	在 VM_translator 中
+	將 VM Code 編譯成 Assmbly Code
 
-在 Compiler 中
-將設計一個物件導向的高階語言，並編寫編譯器將代碼編譯成 VM Code
+	在 Compiler 中
+	將設計一個物件導向的高階語言，並編寫編譯器將代碼編譯成 VM Code
 
 
 	--- Compiler
