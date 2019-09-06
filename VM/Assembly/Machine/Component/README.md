@@ -27,4 +27,4 @@
 	x+y, x-y, y-x, 0, 1, -1, x, y, -x, -y, !x, !y,
 	x+1, y+1, x-1, y-1, x&y, x|y
 
-![ALU](https://github.com/aazz44ss/CompilerAndCpuDesign/blob/master/VM/Assmbly/Machine/Component/pic/ALU.png)
+![ALU](https://github.com/aazz44ss/CompilerAndCpuDesign/blob/master/VM/Assembly/Machine/Component/pic/ALU.png)
