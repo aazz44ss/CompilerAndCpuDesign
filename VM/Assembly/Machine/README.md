@@ -10,7 +10,7 @@
 	4. 外部配備screen，對應到的address有8k個，每個address有16bit控制16個pixel
 	5. 外部配備keyboard，對應到address為24576
 
-![image](https://github.com/aazz44ss/CompilerAndCpuDesign/blob/master/VM/Assmbly/Machine/pic/computer.png)
+![image](https://github.com/aazz44ss/CompilerAndCpuDesign/blob/master/VM/Assembly/Machine/pic/computer.png)
 
 ## CPU
 
@@ -27,7 +27,7 @@
 		3. addressM // address of RAM
 		4. pc		// program counter，來控制程式要執行第幾行的instruction
 
-![image](https://github.com/aazz44ss/CompilerAndCpuDesign/blob/master/VM/Assmbly/Machine/pic/cpu.png)
+![image](https://github.com/aazz44ss/CompilerAndCpuDesign/blob/master/VM/Assembly/Machine/pic/cpu.png)
 
 ## instruction介紹
 
@@ -45,6 +45,6 @@
 			d1~d3	控制是否覆寫A register,D register, RAM
 			j1~j3	控制是否jmp
 
-![image](https://github.com/aazz44ss/CompilerAndCpuDesign/blob/master/VM/Assmbly/Machine/pic/cpu_op.png)
+![image](https://github.com/aazz44ss/CompilerAndCpuDesign/blob/master/VM/Assembly/Machine/pic/cpu_op.png)
 
 
